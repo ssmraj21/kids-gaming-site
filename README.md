@@ -34,6 +34,27 @@ kids-gaming-site/
 3. **Start a local server**: Use Live Server extension or Python's built-in server
 4. **Open in browser**: Navigate to `http://localhost:3000` (or your server port)
 
+## 📋 GitHub Pages Deployment
+
+**To deploy this site to GitHub Pages:**
+
+1. **Create GitHub Repository**
+   - Go to GitHub.com and create a new public repository named `kids-gaming-site`
+   - Add MIT license if desired
+
+2. **Push to GitHub**
+   ```bash
+   git remote add origin https://github.com/hereandnowai/kids-gaming-site.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+3. **Configure GitHub Pages**
+   - Go to repository Settings → Pages → select `main` branch (root)
+   - The site will be available at: `https://hereandnowai.github.io/kids-gaming-site`
+
+**Note**: The repository includes automatic GitHub Actions deployment. Allow a few minutes for the site to go live after pushing.
+
 ### Using Python Server
 ```bash
 cd kids-gaming-site
