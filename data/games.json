@@ -1,0 +1,43 @@
+{
+    "siteTitle": "Kids Gaming Hub",
+    "tagline": "Awesome games for awesome kids!",
+    "countdownTarget": "2025-12-25T00:00:00Z",
+    "games": [
+        {
+            "id": 1,
+            "name": "Space Adventure",
+            "description": "Explore the galaxy and discover new planets in this exciting space adventure game!",
+            "thumb": "https://via.placeholder.com/300x200/4ECDC4/FFFFFF?text=Space+Adventure",
+            "difficulty": "easy",
+            "url": "https://example.com/space-adventure",
+            "tags": ["adventure", "space", "exploration"]
+        },
+        {
+            "id": 2,
+            "name": "Math Puzzle Pro",
+            "description": "Challenge your mathematical skills with fun puzzles and brain teasers!",
+            "thumb": "https://via.placeholder.com/300x200/FF6B6B/FFFFFF?text=Math+Puzzle",
+            "difficulty": "medium",
+            "url": "https://example.com/math-puzzle",
+            "tags": ["puzzle", "math", "education"]
+        },
+        {
+            "id": 3,
+            "name": "Dragon Quest",
+            "description": "Embark on an epic journey to defeat dragons and save the kingdom!",
+            "thumb": "https://via.placeholder.com/300x200/FFA726/FFFFFF?text=Dragon+Quest",
+            "difficulty": "hard",
+            "url": "https://example.com/dragon-quest",
+            "tags": ["rpg", "adventure", "fantasy"]
+        },
+        {
+            "id": 4,
+            "name": "Code Breaker",
+            "description": "Learn programming concepts while solving exciting coding challenges!",
+            "thumb": "https://via.placeholder.com/300x200/66BB6A/FFFFFF?text=Code+Breaker",
+            "difficulty": "medium",
+            "url": "https://example.com/code-breaker",
+            "tags": ["coding", "education", "logic"]
+        }
+    ]
+}

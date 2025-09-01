@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Gaming Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="#" id="favicon">
+</head>
+<body>
+    <header role="banner">
+        <nav aria-label="Main navigation">
+            <div class="logo-container">
+                <img id="site-logo" src="#" alt="Site Logo" style="display: none;">
+                <h1 id="site-title">Kids Gaming Site</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#games">Games</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <h2 id="hero-title">Welcome to the Ultimate Gaming Experience!</h2>
+                <p id="hero-slogan">Fun games for kids ages 10-15</p>
+                <div class="hero-buttons">
+                    <a href="#games" class="cta-button primary">Explore Games</a>
+                    <a href="#about" class="cta-button secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-animation">
+                <div class="floating-shapes">
+                    <div class="shape circle"></div>
+                    <div class="shape triangle"></div>
+                    <div class="shape square"></div>
+                </div>
+            </div>
+            <!-- TODO: student exercise - Add more hero background animations -->
+        </section>
+
+        <section id="games" class="games-section" aria-labelledby="games-title">
+            <h2 id="games-title">Featured Games</h2>
+            <div id="countdown-timer" class="countdown">
+                <p>Next game release in: <span id="countdown-display">Loading...</span></p>
+            </div>
+            <div id="games-grid" class="games-grid" role="list">
+                <!-- Games will be populated by JavaScript -->
+                <!-- TODO: student exercise - Add game search and filter functionality -->
+            </div>
+        </section>
+
+        <section id="about" class="about-section" aria-labelledby="about-title">
+            <h2 id="about-title">About Us</h2>
+            <p>We create amazing gaming experiences for young minds!</p>
+            <!-- TODO: student exercise - Add more about content -->
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p id="contact-email">Email: contact@kidsgaming.com</p>
+                <p id="contact-phone">Phone: +1 (555) 123-4567</p>
+            </div>
+            <div class="social-links">
+                <h3>Follow Us</h3>
+                <div id="social-media-links">
+                    <!-- Social media links will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 Kids Gaming Site. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

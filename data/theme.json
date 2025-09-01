@@ -1,0 +1,23 @@
+{
+    "theme": {
+        "colors": {
+            "primary": "#FFDF00",
+            "accent": "#004040",
+            "secondary": "#FFA726",
+            "success": "#66BB6A",
+            "bg": "#FFFFFF",
+            "text": "#2C3E50"
+        },
+        "font": "'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+        "borderRadius": "12px",
+        "shadows": {
+            "small": "0 2px 4px rgba(0, 0, 0, 0.1)",
+            "medium": "0 4px 6px rgba(0, 0, 0, 0.1)",
+            "large": "0 8px 25px rgba(0, 0, 0, 0.15)"
+        },
+        "animations": {
+            "duration": "0.3s",
+            "easing": "ease"
+        }
+    }
+}
